@@ -1,7 +1,5 @@
 "use strict";
 
-let variable = "something";
-let varType = typeof(variable);
+let x = 16;
 
-alert(`Your variable is of type \'${varType}\'`);
-
+alert(x**(1/2));
