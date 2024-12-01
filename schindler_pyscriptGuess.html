@@ -27,7 +27,7 @@
 
         <py-script>
             from pyscript import when
-            @when ("click", selector="#submit")
+            @when ("click", selector="#Submit")
             def check_guess(e):
                 e.preventDefault()
                 user_guess = int(Element("guess").value)
