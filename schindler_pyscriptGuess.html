@@ -27,7 +27,7 @@
 
         <py-script>
             from pyscript import when
-            @when ("click", selector="#submit")
+            @when ("click", selector="#Submit")
             def check_guess():
                 user_guess = int(Element("guess").value)
                 result = Element("result")
@@ -37,7 +37,7 @@
                     result.write("Try again! Your guess was too high.")
                 else:
                     result.write("Try again! Your guess was too low.")
-            <!--No loop necessary as this function is called whenever the button is pressed.-->
+            # No loop necessary as this function is called whenever the button is pressed.
         </py-script>
     </body>
 </html>
